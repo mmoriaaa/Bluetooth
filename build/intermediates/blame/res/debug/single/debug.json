@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_edittext.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/edittext.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_chatfrom_bg_normal.9.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/chatfrom_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_button0.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/button0.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_button1.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/button1.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_button_selector.xml.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/button_selector.xml"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/layout_list_item.xml.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_back01.jpg.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/back01.jpg"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-ldpi_simple_list_item_1.xml.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-ldpi/simple_list_item_1.xml"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_back02.jpeg.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/back02.jpeg"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_textview.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/textview.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_back03.jpg.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/back03.jpg"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_bluetooth.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/bluetooth.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_chatto_bg_normal.9.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/chatto_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/layout_dialog.xml.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/layout/dialog.xml"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/menu_main.xml.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_scrollview.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/scrollview.png"
+    },
+    {
+        "merged": "/Users/morui/Downloads/bluetooth3/build/intermediates/res/merged/debug/drawable-hdpi_back04.png.flat",
+        "source": "/Users/morui/Downloads/bluetooth3/res/drawable-hdpi/back04.png"
+    }
+]
