@@ -17,11 +17,12 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:label="ForceShoe"
+        android:testOnly="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         <activity
             android:name="main.MainActivity"
-            android:label="@string/app_name" >
+            android:label="ForceShoe" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

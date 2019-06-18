@@ -1,0 +1,4 @@
+#Tue Jun 18 20:45:51 CST 2019
+base.0=/Users/morui/Downloads/bluetooth3/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

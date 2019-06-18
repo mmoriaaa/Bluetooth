@@ -78,8 +78,8 @@ public class MainActivity extends Activity {
 	// 广播接收器，主要是接收蓝牙状态改变时发出的广播
 	private BroadcastReceiver mReceiver;
 	List<String> Rssi;
-	private int isWeight = 0;
-	String weight = "";
+	private String buff = "";
+    int weightDec = 0;
 
 	// 消息处理器..日理万鸡的赶脚...
 	private Handler mHandler = new Handler() {
@@ -134,8 +134,48 @@ public class MainActivity extends Activity {
 			case RECEIVE_MSG:
 			case SEND_MSG:
 				String chatStr = msg.getData().getString("str");//接收数据
-				textView.append(chatStr);
-				scrollView.fullScroll(ScrollView.FOCUS_DOWN);//滚动到底部
+                buff += chatStr;
+                if (buff.length() > 120) {
+                    int len = buff.length();
+                    int index = buff.indexOf("g");
+                    if(index > 0 && index + 18 < len) {
+                        String weight = buff.substring(index + 14, index + 18);
+                        String hex = weight.substring(2, 4);
+                        char bitH = hex.charAt(0);
+                        char bitL = hex.charAt(1);
+                        if (Character.isDigit(bitH) && Character.isDigit(bitL)){  // 判断是否是数字
+                            weightDec = 16 * Integer.parseInt(String.valueOf(bitH));
+                            weightDec += Integer.parseInt(String.valueOf(bitL));
+                        }
+                        String weightStr = String.valueOf(weightDec);
+//                        weight = weight + "\n";
+////                        textView.append(weight);
+                        weightStr = weightStr + "kg\n";
+                        textView.append(weightStr);
+                        scrollView.fullScroll(ScrollView.FOCUS_DOWN);//滚动到底部
+                        buff = "";
+                    }
+                }
+//                switch (isWeight) {
+//                    case 1:
+//                        weight += chatStr;
+//                        isWeight = 2;
+//                        break;
+//                    case 2:
+//                        weight += chatStr;
+//                        isWeight = 0;
+//                        textView.append(weight);
+//                        scrollView.fullScroll(ScrollView.FOCUS_DOWN);//滚动到底部
+//                        weight = "";
+//                        break;
+//                    default:
+//                        if(chatStr.startsWith("Total Weight")) {
+//                            isWeight = 1;
+//                        }
+//                }
+
+//				textView.append(chatStr);
+//				scrollView.fullScroll(ScrollView.FOCUS_DOWN);//滚动到底部
 //				TextView text = new TextView(Activity11.this);
 //				text.setText(chatStr);
 //				if (msg.what == SEND_MSG) {
